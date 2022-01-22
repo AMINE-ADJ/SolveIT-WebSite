@@ -252,7 +252,7 @@ p.actiontext {
   flex-wrap: wrap;
 }
 .speaker0 {
-  width: 360px;
+  width: 370px;
   height: 400px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
@@ -264,7 +264,7 @@ p.actiontext {
 }
 
 .speakerafterminusclick0 {
-  width: 300px;
+  width: 320px;
   height: 350px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
@@ -276,8 +276,8 @@ p.actiontext {
   animation: speakercardanimation-down 1s ease forwards;
 }
 .speakerafterplusclick0 {
-  width: 300px;
-  height: 350px;
+  width: 370px;
+  height: 400px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
   /* margin-top: 25px; */
@@ -288,8 +288,8 @@ p.actiontext {
   animation: speakercardanimation-up 1s ease forwards;
 }
 .speakerafterplusclick1 {
-  width: 300px;
-  height: 350px;
+  width: 370px;
+  height: 400px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
   /* margin-top: 25px; */
@@ -300,8 +300,8 @@ p.actiontext {
   animation: speakercardanimation-up 1s ease forwards;
 }
 .speakerafterplusclick2 {
-  width: 300px;
-  height: 350px;
+  width: 370px;
+  height: 400px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
   /* margin-top: 25px; */
@@ -312,7 +312,7 @@ p.actiontext {
   animation: speakercardanimation-up 1s ease forwards;
 }
 .speaker1 {
-  width: 360px;
+  width: 370px;
   height: 400px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
@@ -324,7 +324,7 @@ p.actiontext {
 }
 
 .speakerafterminusclick1 {
-  width: 300px;
+  width: 320px;
   height: 350px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
@@ -336,7 +336,7 @@ p.actiontext {
   animation: speakercardanimation-down 1s ease forwards;
 }
 .speaker2 {
-  width: 360px;
+  width: 370px;
   height: 400px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
@@ -348,7 +348,7 @@ p.actiontext {
 }
 
 .speakerafterminusclick2 {
-  width: 300px;
+  width: 320px;
   height: 350px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
@@ -554,12 +554,47 @@ p.actiontext {
   font-style: normal;
   letter-spacing: 1px;
 }
+.speakerDesciptionAfterMinus0 {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  animation: description-animation-down 1s ease forwards;
+}
 .speakerDesciptionAfterMinus1 {
   font-family: "Rubik";
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1px;
   animation: description-animation-down 1s ease forwards;
+}
+.speakerDesciptionAfterMinus2 {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  animation: description-animation-down 1s ease forwards;
+}
+.speakerDesciptionAfterPlus0 {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  animation: description-animation-up 2s ease forwards;
+}
+.speakerDesciptionAfterPlus1 {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  animation: description-animation-up 2s ease forwards;
+}
+.speakerDesciptionAfterPlus2 {
+  font-family: "Rubik";
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 1px;
+  animation: description-animation-up 2s ease forwards;
 }
 .speakerphotodiv0 {
   width: 100px;
@@ -644,30 +679,43 @@ p.actiontext {
 }
 @keyframes speakercardanimation-down {
   0% {
-    width: 360px;
+    width: 370px;
     height: 400px;
   }
   100% {
-    width: 300px;
-    height: 350px;
+    width: 320px;
+    height: 370px;
   }
 }
 @keyframes speakercardanimation-up {
   0% {
-    width: 300px;
-    height: 350px;
+    width: 320px;
+    height: 370px;
   }
   100% {
-    width: 360px;
+    width: 370px;
     height: 400px;
   }
 }
 @keyframes description-animation-down {
   0% {
     top: 90px;
+    opacity: 1;
   }
   100% {
     top: 10px;
+    opacity: 0;
+  }
+}
+@keyframes description-animation-up {
+  0% {
+    top: 10px;
+    opacity: 0;
+  }
+  100% {
+   
+    top: 90px;
+    opacity: 1;
   }
 }
 .speakerphotodiv1 {
