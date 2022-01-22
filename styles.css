@@ -261,6 +261,7 @@ p.actiontext {
   line-height: 20px;
   color: white;
   position: relative;
+  animation: speakercardanimation-up 1s ease forwards;
 }
 
 .speakerafterminusclick0 {
@@ -321,19 +322,7 @@ p.actiontext {
   line-height: 20px;
   color: white;
   position: relative;
-}
-
-.speakerafterminusclick1 {
-  width: 320px;
-  height: 350px;
-  background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
-  border-radius: 50px;
-  /* margin-top: 25px; */
-  padding: 20px;
-  line-height: 20px;
-  color: white;
-  position: relative;
-  animation: speakercardanimation-down 1s ease forwards;
+  animation: speakercardanimation-up 1s ease forwards;
 }
 .speaker2 {
   width: 370px;
@@ -345,6 +334,19 @@ p.actiontext {
   line-height: 20px;
   color: white;
   position: relative;
+  animation: speakercardanimation-up 1s ease forwards;
+}
+.speakerafterminusclick1 {
+  width: 320px;
+  height: 350px;
+  background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
+  border-radius: 50px;
+  /* margin-top: 25px; */
+  padding: 20px;
+  line-height: 20px;
+  color: white;
+  position: relative;
+  animation: speakercardanimation-down 1s ease forwards;
 }
 
 .speakerafterminusclick2 {
@@ -372,6 +374,7 @@ p.actiontext {
   font-style: normal;
   letter-spacing: 1px;
   margin-top: 90px;
+  animation: text-animation-up 1s ease forwards;
 }
 .speakerName1 {
   font-family: "Rubik";
@@ -379,6 +382,7 @@ p.actiontext {
   font-style: normal;
   letter-spacing: 1px;
   margin-top: 90px;
+  animation: text-animation-up 1s ease forwards;
 }
 .speakerName2 {
   font-family: "Rubik";
@@ -386,6 +390,7 @@ p.actiontext {
   font-style: normal;
   letter-spacing: 1px;
   margin-top: 90px;
+  animation: text-animation-up 1s ease forwards;
 }
 .speakerNameAfterMinus {
   font-family: "Rubik";
@@ -541,18 +546,21 @@ p.actiontext {
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1px;
+  animation: description-animation-up 2s ease forwards;
 }
 .speakerDesciption1 {
   font-family: "Rubik";
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1px;
+  animation: description-animation-up 2s ease forwards;
 }
 .speakerDesciption2 {
   font-family: "Rubik";
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1px;
+  animation: description-animation-up 2s ease forwards;
 }
 .speakerDesciptionAfterMinus0 {
   font-family: "Rubik";
@@ -604,17 +612,9 @@ p.actiontext {
   top: -65px;
   left: 50%;
   transform: translateX(-80%);
+  animation: photo-animation-up 1s ease forwards;
 }
-.speakerphotodivafterminusclick0 {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  /* top: -1px; */
-  left: 50%;
-  transform: translateX(-80%);
-  animation: photo-animation-down 1s ease forwards;
-}
+
 .speakerphotodivafterplusclick0 {
   width: 100px;
   height: 100px;
@@ -713,10 +713,19 @@ p.actiontext {
     opacity: 0;
   }
   100% {
-   
     top: 90px;
     opacity: 1;
   }
+}
+.speakerphotodivafterminusclick0 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  /* top: -1px; */
+  left: 50%;
+  transform: translateX(-80%);
+  animation: photo-animation-down 1s ease forwards;
 }
 .speakerphotodiv1 {
   width: 100px;
@@ -726,6 +735,7 @@ p.actiontext {
   top: -65px;
   left: 50%;
   transform: translateX(-80%);
+  animation: photo-animation-up 1s ease forwards;
 }
 .speakerphotodivafterminusclick1 {
   width: 100px;
@@ -745,6 +755,7 @@ p.actiontext {
   top: -65px;
   left: 50%;
   transform: translateX(-80%);
+  animation: photo-animation-up 1s ease forwards;
 }
 .speakerphotodivafterminusclick2 {
   width: 100px;
