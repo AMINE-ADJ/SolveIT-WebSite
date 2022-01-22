@@ -7,19 +7,13 @@ function changeCard(i) {
          document.getElementsByClassName("professionAfterMinus"+i)[0].className = "profession"+i; //++
          document.getElementsByClassName("speakerDesciptionAfterMinus"+i)[0].className = "speakerDesciption"+i;//++
          document.getElementById("description"+i).innerHTML = description[i];
-       // let node = document.createTextNode ('Hello, I am Arun');
-       // document.getElementById("description"+i).appendChild(node); 
- 
          document.getElementsByClassName("speakerphotodivafterminusclick"+i)[0].className = "speakerphotodiv"+i;
          document.getElementsByClassName("plusButton"+i)[0].className = "minusButton"+i;
       } else if( document.getElementById("button"+i).classList.contains('minusButton'+i) ) {
-    //    alert("it's minus dans"+i); 
        document.getElementsByClassName("speaker"+i)[0].className = "speakerafterminusclick"+i;
        document.getElementsByClassName("speakerName"+i)[0].className = "speakerNameAfterMinus"+i;
        document.getElementsByClassName("profession"+i)[0].className = "professionAfterMinus"+i;
        document.getElementsByClassName("speakerDesciption"+i)[0].className = "speakerDesciptionAfterMinus"+i;
-    //    document.getElementsByClassName("content1")[0].className = "contentdown1";
-      //  document.getElementById("description"+i).innerHTML = "";
        document.getElementsByClassName("speakerphotodiv"+i)[0].className = "speakerphotodivafterminusclick"+i;
        document.getElementsByClassName("minusButton"+i)[0].className = "plusButton"+i;
      }
