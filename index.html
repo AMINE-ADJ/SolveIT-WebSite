@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles.css">
+        <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
         <script src="animation.js"></script>
     </head>
     <body>
@@ -398,6 +403,52 @@
                 </div>
 
             </div>
+
+<!-- ---------------------------------------------FAQ SECTION------------------------------------------------------ -->
+
+          <div class="FAQsection">
+            <div class="swiper mySwiper">
+                <h1 class="FAQtitle">FAQ</h1>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide myslide">
+                        <h2 class="titlefaq">What is this?</h2>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. <br> Tincidunt id aliquet risus feugiat in.</p>
+                    </div>
+                    <div class="swiper-slide myslide">
+                        <h2 class="titlefaq">How can we participate?</h2>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. <br> Tincidunt id aliquet.</p>
+                    </div>
+                    <div class="swiper-slide myslide">
+                        <h2 class="titlefaq">When it will be?</h2>
+                        <p class="para">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="swiper-slide myslide">
+                        <h2 class="titlefaq">Why join us?</h2>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. <br> Tincidunt id aliquet risus feugiat in.</p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+           </div>
+
+          </div>
+           
+ 
+    
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".swiper", {
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+              renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (index + 1) + "</span>";
+              },
+            },
+          });
+        </script>
         </header>
         <footer>
             <!-- -----------------------------------------------CONTACT SECTION---------------------------------------- -->
