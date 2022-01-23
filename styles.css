@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
-body {
-  padding: 0%;
-  margin: 0%;
+
+html { 
+  scroll-behavior: smooth;
 }
 
-#heropage {
+body {
+  font-family: Rubik;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+/* #heropage {
   background: url(comps/blue_bg.png) no-repeat;
   width: 100%;
   background-size: cover;
@@ -99,7 +106,6 @@ a {
 #teaser {
   display: flex;
   float: right;
-  /* width: 58%; */
   position: static;
   margin-right: 100px;
 }
@@ -115,7 +121,7 @@ a {
   background: url(comps/bg.png) no-repeat;
   background-size: cover;
   height: 2222px;
-}
+} */
 .agendatext {
   text-decoration: underline rgba(51, 255, 192, 0.64);
   text-align: center;
@@ -671,3 +677,280 @@ p.actiontext {
     opacity: 1;
   }
 }
+
+/* ---------------------------------------------------------HERO PAGE----------------------------------------------- */
+
+.navbar{
+  list-style-type: none;
+  text-decoration-line: none;
+  width: 100%;
+  background: #111356;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  box-shadow: 0 1px 0.9em #33ffc0;
+  position: relative;
+}
+.heropage{
+  background: url(pics/blue_bg.png) no-repeat;
+  background-size: cover;
+}
+
+.sit-logo{
+  padding-left: 40px;
+}
+
+.sections{
+  display: flex;
+  gap: 50px;
+  padding-right: 30px;
+}
+
+.entete{
+  list-style-type: none;
+  text-decoration-line: none;
+  color: white;
+  font-size: 1.3em;
+}
+
+.place , .date{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.place{padding-bottom: 42px;}
+
+.place img , .date img{
+  height: 40px;
+  width: auto;
+}
+
+.herobody{
+  margin-top: 65px;
+  display: flex;
+  gap: 0;
+  justify-content: space-between;
+}
+
+.teaser img{
+  width: 90%;
+  height: 95%;
+}
+
+.teaser{padding:18px 40px 0 13px;}
+
+.cprograming{
+  padding-left: 70px;
+}
+
+.heropage h1{font-size: 3.6em;}
+.heropage p{font-size: 1.3em;}
+
+.scroll{
+  height: 200px;
+  margin-top: -140px;
+  width: auto;
+  margin-left: 93%;
+}
+
+/* --------------------------------------------ABOUT SECTION------------------------------------------------- */
+.aboutsection{
+  color: black;
+  background: url(pics/bg.png)  ;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.whiteone{
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.whiteentete{color: black;}
+
+.aboutsection h1{color: #111356;}
+
+.images{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.team{
+  width: 50%;
+  height: auto;
+  margin-top: -25%;
+}
+
+.work{
+  width: 35%;
+  height: auto;
+  padding-left: 7%;
+}
+
+.goodteam{
+  padding-left: 45%;
+}
+
+.images2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.csel{
+  padding-left: 63%;
+  height: auto;
+  width: 33%;
+}
+
+.cset{
+  height: auto;
+  width: 50%;
+  padding-left: 7%;
+  margin-top: -18%;
+  margin-bottom: 10%;
+}
+
+.para1{
+  margin: 10% 0 -12% 49%;
+  /* text-align: center; */
+  width: 40%;
+  height: 10%;
+  font-size: 1.2em;
+  color: #111356;
+  text-shadow: 2px 2px #33FFC0;
+}
+
+.para2{
+  /* text-align: left;
+  margin-bottom: -13%;
+  margin-left: 12%; */
+  margin: 10% 0 -13% -3%;
+  width: 70%;
+  height: 1%;
+  font-size: 1.2em;
+  color: #111356;
+  text-shadow: 2PX 2PX #33FFC0;
+}
+
+.eventtitle{
+   font-size: 3em;
+  margin: 10% 0 0 10%;
+  background: url(pics/surligneu.png) no-repeat;
+  background-position: top 30PX left 0;
+  background-size: 420px;
+}
+
+.csetitle{
+  margin: 10% 0 -7% 65%;
+  font-size: 3em;
+  background: url(pics/surligneu.png) no-repeat;
+  background-size: 230px 29px;
+  background-position: top 35PX left 0;
+}
+
+
+/* ------------------- --------------CONTACT SECTION------------------------------------------------------------*/
+.contactsection{
+  background-color: #111356;
+} 
+
+.regestration{
+  background-color: #01033D;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.register{width: 37%;}
+
+.register button{
+  border-radius: 2em;
+  background-color: #33FFC0;
+  color: #111356;
+  height: 57px;
+  width: 200PX;
+  font-weight: 900;
+  border-color: #33FFC0;
+  font-size: 1em;
+}
+
+.solveit{
+  color: #33FFC0;
+}
+
+.it{
+  padding-left: 22%;
+  font-size: 1.7em;
+}
+
+p{
+  text-align: center;
+}
+
+.images3{
+  display: flex;
+  gap: 35PX;
+  justify-content: center;
+}
+
+.qst{
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: -4px 6px 10px rgba(51, 255, 192, 0.25);
+}
+
+.email{
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.contact{margin:58px 0 0 0 ;}
+
+.cont{
+  text-align: center;
+}
+
+.media{
+  padding-top: 20px;
+  justify-content: center;
+  gap: 60PX;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 60px;
+  text-align: center;
+}
+
+.reseaux {
+  background-color: #33FFC0;
+  color-adjust: white;
+  border-radius: 60px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border: 5px solid white;
+}
+.reseaux a{color: #111356;}
+
+.copyright{
+  background-color: #cccccc;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  color: #111356;
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 1em;
+}
+
