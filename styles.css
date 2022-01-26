@@ -325,6 +325,8 @@ body {
   border-radius: 50px;
   /* margin-top: 25px; */
   padding: 20px;
+  margin: 10px;
+
   line-height: 20px;
   color: white;
   position: relative;
@@ -336,7 +338,7 @@ body {
   height: 350px;
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
-  /* margin-top: 25px; */
+  margin: 10px;
   padding: 20px;
   line-height: 20px;
   color: white;
@@ -350,6 +352,7 @@ body {
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
   /* margin-top: 25px; */
+  margin: 10px;
   padding: 20px;
   line-height: 20px;
   color: white;
@@ -362,6 +365,7 @@ body {
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
   /* margin-top: 25px; */
+  margin: 10px;
   padding: 20px;
   line-height: 20px;
   color: white;
@@ -375,6 +379,7 @@ body {
   border-radius: 50px;
   /* margin-top: 25px; */
   padding: 20px;
+  margin: 10px;
   line-height: 20px;
   color: white;
   position: relative;
@@ -387,6 +392,7 @@ body {
   background: linear-gradient(180deg, #111356 0%, #296ff9 175%);
   border-radius: 50px;
   /* margin-top: 25px; */
+  margin: 10px;
   padding: 20px;
   line-height: 20px;
   color: white;
