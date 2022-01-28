@@ -1,6 +1,6 @@
 
-window.onscroll = function() {
-    if(document.documentElement.scrollTop > 600) {
+window.onscroll = function() { 
+        if(document.documentElement.scrollTop > 600) {
         document.getElementById("navbarr").style.background = "white"
         document.getElementById("start1").style.color = "black"
         document.getElementById("start2").style.color = "black"
@@ -21,5 +21,6 @@ window.onscroll = function() {
         document.getElementById("start6").style.color = "white"
         document.querySelector('.logojs').src = 'pics/logoversionblue4.png'        
     }
-
 }
+
+
